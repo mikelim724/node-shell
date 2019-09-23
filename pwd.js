@@ -11,5 +11,5 @@
 // });
 
 module.exports = function() {
-  process.stdout.write(__dirname);
+  process.stdout.write(__dirname); //can also use process.cwd() instead of __dirname
 };
